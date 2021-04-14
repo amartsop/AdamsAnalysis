@@ -1,0 +1,11 @@
+input_forces.csv: Last_Run.TIME, VFORCE_1.FX, VFORCE_1.FY, VFORCE_1.FZ
+input_moments.csv: Last_Run.TIME, VFORCE_1.TX, VFORCE_1.TY, VFORCE_1.TZ
+
+handle_position.csv: Last_Run.TIME, handle_XFORM.X, handle_XFORM.Y, handle_XFORM.Z
+handle_orientation.csv: Last_Run.TIME, handle_XFORM.PHI, handle_XFORM.THETA, handle_XFORM.PSI
+
+reaction_forces.csv: Last_Run.TIME, motion_t1.FX, motion_t2.FY, motion_t3.FZ
+reaction_moments.csv: Last_Run.TIME, motion_r1.TX, motion_r2.TY, motion_r3.TZ
+
+tip_position.csv: Last_Run.TIME, X52, Y52, Z52
+tip_orientation.csv: Last_Run.TIME, PHI52, THETA52, PSI52

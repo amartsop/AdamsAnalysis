@@ -1,0 +1,171 @@
+---------------------- Needle Properties -----------------------
+Damping Ratio (stiffness): 1.0E-02
+Damping Ratio (mass): 0.0
+
+---------------------- Analysis 1 -----------------------
+-Simulation time: 5.0 s
+-Simulation steps: 500
+-Input tip force:   {0.0, 0.0, 0.6 * tanh(t)} t < 2.5s
+                    {0.0, 0.0, 0.0} t>=2.5s
+    
+-Input tip moment:   {0.0, 0.0, 0.0} 
+
+-Input handle position: {0.0, 0.0, a}
+                    
+-Input handle orientation:   {0.0, 0.0, 0.0}
+
+where
+a = 0.2 * sin(2 * PI * 0.5 * time)
+
+---------------------- Analysis 2 -----------------------
+-Simulation time: 5.0 s
+-Simulation steps: 1000
+-Input tip force:   {0.0, 0.0, 0.6 * tanh(t)} t < 2.5s
+                    {0.0, 0.0, 0.0} t>=2.5s
+    
+-Input tip moment:   {0.0, 0.0, 0.0} 
+
+-Input handle position: {0.0, 0.0, a}
+                    
+-Input handle orientation:   {0.0, 0.0, 0.0}
+
+where
+a = 0.2 * sin(2 * PI * 0.5 * time)
+
+
+---------------------- Analysis 3 -----------------------
+
+-Simulation time: 5.0 s
+-Simulation steps: 1000
+-Input tip force:   {0.0, 0.0, 0.6 * tanh(t)} t < 2.5s
+                    {0.0, 0.0, 0.0} t>=2.5s
+    
+-Input tip moment:   {0.0, 0.0, 0.0} 
+
+-Input handle position: {0.0, 0.0, a}
+                    
+-Input handle orientation:   {0.0, a, 0.0}
+
+where
+a = 0.2 * sin(2 * PI * 0.5 * time)
+
+
+---------------------- Analysis 4 -----------------------
+
+-Simulation time: 5.0 s
+-Simulation steps: 1000
+-Input tip force:   {tr, tr, tr} t < 2.5s
+                    {0.0, 0.0, 0.0} t>=2.5s
+    
+-Input tip moment:   {0.0, 0.0, 0.0} 
+
+tr = 0.6 * tanh(t);
+
+-Input handle position: {a, a, a}
+                    
+-Input handle orientation:   {a, a, a}
+
+where
+a = 0.2 * sin(2 * PI * 0.5 * time)
+
+
+---------------------- Analysis 5 -----------------------
+***Winkler Foundation
+
+-Simulation time: 5.0 s
+-Simulation steps: 1000
+
+-Input tip force:   Restoration force:  Stiffness per point: 0.2 N/m
+                                        Damping per point: 0.002 Ns/m
+-Input tip moment:  Zero for all points
+
+-Input handle position: {0.0, 0.0, a}
+                    
+-Input handle orientation:   {0.0, 0.0, 0.0}
+
+where
+a = 0.1 * sin(2 * PI * 0.5 * time)
+
+- Points 23-52
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------- Nodes Position -----------------------
+1	0.0
+2	1.9607843137E-02
+3	3.9215686275E-02
+4	5.8823529412E-02
+5	7.8431372549E-02
+6	9.8039215686E-02
+7	0.1176470588
+8	0.137254902
+9	0.1568627451
+10	0.1764705882
+11	0.1960784314
+12	0.2156862745
+13	0.2352941176
+14	0.2549019608
+15	0.2745098039
+16	0.2941176471
+17	0.3137254902
+18	0.3333333333
+19	0.3529411765
+20	0.3725490196
+21	0.3921568627
+22	0.4117647059
+23	0.431372549
+24	0.4509803922
+25	0.4705882353
+26	0.4901960784
+27	0.5098039216
+28	0.5294117647
+29	0.5490196078
+30	0.568627451
+31	0.5882352941
+32	0.6078431373
+33	0.6274509804
+34	0.6470588235
+35	0.6666666667
+36	0.6862745098
+37	0.7058823529
+38	0.7254901961
+39	0.7450980392
+40	0.7647058824
+41	0.7843137255
+42	0.8039215686
+43	0.8235294118
+44	0.8431372549
+45	0.862745098
+46	0.8823529412
+47	0.9019607843
+48	0.9215686275
+49	0.9411764706
+50	0.9607843137
+51	0.9803921569
+52	1.0
